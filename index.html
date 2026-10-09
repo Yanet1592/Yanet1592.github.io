@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akuma Kawaii Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Akuma Kawaii</h1>
+        <p>El lado adorable y oscuro del mundo otaku</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#reseñas">Reseñas</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#video">Videos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+
+            <h1 class="bienvenido">¡BIENVENIDOS!
+                <img src="imagenes/chibiakuma.png" alt="Mascota chibi mecha kawaii" class="chibi">
+            </h1>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zz2a9Q2Wru0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+
+        <section id="productos">
+            <h2>PRODUCTOS</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="imagenes/pelucheakuna.png" alt="Peluche Akuma" class="producto-img">
+                    <p>Peluche Akuma</p>
+                </div>
+                <div class="card">
+                    <img src="imagenes/audifonos.png" alt="Audífonos Gato Gamer" class="producto-img">
+                    <p>Audífonos Gato Gamer</p>
+                </div>
+                <div class="card">
+                    <img src="imagenes/pocionmagica.png" alt="Vaso de Poción" class="producto-img">
+                    <p>Vaso de Poción</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>RESEÑAS</h2>
+            <div class="reseñas-grid">
+                <div class="reseña">⭐⭐⭐ "La figura chibi demonio es adorable y tenebrosa"</div>
+                <div class="reseña">⭐⭐ "El manga llegó rápido y con excelente calidad"</div>
+                <div class="reseña">⭐⭐⭐⭐ "El ramen oscuro fue una experiencia única"</div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/mvkzavyo" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Akuma Kawaii. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
